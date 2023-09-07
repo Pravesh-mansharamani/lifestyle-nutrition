@@ -20,6 +20,9 @@ import {
     product11,
     product12,
     product13,
+    product14,
+    product15,
+    product16,
 
     thumbnailBackground,
     thumbnailProduct1,
@@ -28,8 +31,8 @@ import {
 
 export const navLinks = [
     { href: "#home", label: "Home" },
-    { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Products" },
+    { href: "#about-us", label: "About Us" },
     { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -57,56 +60,117 @@ export const statistics = [
 export const products = [
     {
         imgURL: product4,
-        name: "Nike Air Jordan-01",
+        name: "My Protein",
         price: "$200.20",
     },
     {
         imgURL: product5,
-        name: "Nike Air Jordan-10",
+        name: "Dynamite ISO Hydration",
         price: "$210.20",
     },
     {
         imgURL: product6,
-        name: "Nike Air Jordan-100",
+        name: "GNC PRO",
         price: "$220.20",
     },
     {
         imgURL: product7,
-        name: "Nike Air Jordan-001",
+        name: "GNC PURE ISOLATE",
         price: "$230.20",
     },
+    {
+        imgURL: product8,
+        name: "ISO SENSATION",
+        price: "$230.20",
+    },
+    {
+        imgURL: product9,
+        name: "ISOPURE",
+        price: "$230.20",
+    },
+    {
+        imgURL: product10,
+        name: "MuscleBlaze Biozyme",
+        price: "$230.20",
+    },
+    {
+        imgURL: product11,
+        name: "MuscleBlaze WHEY GOLD",
+        price: "$230.20",
+    },
+    {
+        imgURL: product12,
+        name: "ON ISOLATE",
+        price: "$230.20",
+    },
+    {
+        imgURL: product13,
+        name: "BSN SYNTHA",
+        price: "$230.20",
+    },
+    {
+        imgURL: bestProduct1,
+        name: "ON WHEY",
+        price: "$230.20",
+    },
+    {
+        imgURL: bestProduct2,
+        name: "Muscletech Nitrotech",
+        price: "$230.20",
+    },
+    {
+        imgURL: bestProduct3,
+        name: "Dymatize ELITE WHEY",
+        price: "$230.20",
+    },
+    {
+        imgURL: product14,
+        name: "Bigmuscle REAL MASS",
+        price: "$230.20",
+    },
+    {
+        imgURL: product15,
+        name: "Max Protein Bars",
+        price: "$230.20",
+    },
+    {
+        imgURL: product16,
+        name: "Xtend BCAA",
+        price: "$230.20",
+    },
+    
 ];
 
 export const services = [
     {
         imgURL: truckFast,
         label: "Free shipping",
-        subtext: "Enjoy seamless shopping with our complimentary shipping service."
+        subtext: "Enjoy seamless shopping with our complimentary shipping service exclusive for Nagpur."
     },
     {
         imgURL: shieldTick,
-        label: "Secure Payment",
-        subtext: "Experience worry-free transactions with our secure payment options."
+        label: "Secure Prodcuts",
+        subtext: "Experience worry-free buying of suppliments for your better life."
     },
     {
         imgURL: support,
         label: "Love to help you",
-        subtext: "Our dedicated team is here to assist you every step of the way."
+        subtext: "Our team is here to provide your suppliments that are needed for your better life."
     },
 ];
 
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        customerName: 'Pravesh Mansharamani',
+        rating: 4.6,
+        feedback: "The quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
-        rating: 4.5,
-        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+        rating: 5,
+        feedback: "The product not only met but exceeded my expectations and they offer huge of discounts on wide range of products!. I'll definitely be a returning customer!"
     }
 ];
 
@@ -115,12 +179,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Muscletech", link: "#products" },
+            { name: "ON", link: "#products" },
+            { name: "GNC", link: "#products" },
+            { name: "My Protein", link: "#products" },
+            { name: "Nitrotech", link: "#products" },
+            { name: "Dymatize", link: "#products" },
         ],
     },
     {
@@ -136,14 +200,14 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "rahul.olympia@gmail.com", link: "mailto:rahul.olympia@gmail.com" },
+            { name: "9890718000", link: "tel:9890718000" },
         ],
     },
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, alt: "facebook logo", href:'https://www.instagram.com/lifestylenutritionngp/' },
+    { src: twitter, alt: "twitter logo", href:'https://www.instagram.com/lifestylenutritionngp/' },
+    { src: instagram, alt: "instagram logo",  },
 ];

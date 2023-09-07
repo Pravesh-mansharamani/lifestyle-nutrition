@@ -1,31 +1,42 @@
 const Button = ({
-    label,
-    iconURL,
-    backgroundColor,
-    textColor,
-    borderColor,
-    fullWidth,
-  }) => {
-    return (
-      <button
-        className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
-        ${
-          backgroundColor
-            ? `${backgroundColor} ${textColor} ${borderColor}`
-            : "bg-sky-500 text-white border-sky-500"
-        } rounded-full ${fullWidth && "w-full"}`}
-      >
-        {label}
-  
-        {iconURL && (
-          <img
-            src={iconURL}
-            alt='arrow right icon'
-            className='ml-2 rounded-full bg-white w-5 h-5'
-          />
-        )} 
-      </button>
-    );
+  label,
+  iconURL,
+  backgroundColor,
+  textColor,
+  borderColor,
+  fullWidth,
+}) => {
+  const scrollToProducts = () => {
+    // Replace 'products' with the ID of the element you want to scroll to.
+    const productsElement = document.getElementById('products');
+    
+    if (productsElement) {
+      // Scroll to the 'products' element smoothly.
+      productsElement.scrollIntoView({ behavior: 'smooth' });
+    }
   };
-  
-  export default Button;
+
+  return (
+    <button
+      className={`flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none
+      ${
+        backgroundColor
+          ? `${backgroundColor} ${textColor} ${borderColor}`
+          : "bg-sky-500 text-white border-sky-500"
+      } rounded-full ${fullWidth && "w-full"}`}
+      onClick={scrollToProducts} // Attach the onClick event handler
+    >
+      {label}
+
+      {iconURL && (
+        <img
+          src={iconURL}
+          alt='arrow right icon'
+          className='ml-2 rounded-full bg-white w-5 h-5'
+        />
+      )}
+    </button>
+  );
+};
+
+export default Button;

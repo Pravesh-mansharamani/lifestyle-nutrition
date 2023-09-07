@@ -1,4 +1,4 @@
-import { product13 } from "../assets/protein";
+import { trust } from "../assets/protein";
 import { Button } from "../components";
 
 const SuperQuality = () => {
@@ -9,14 +9,13 @@ const SuperQuality = () => {
     >
       <div className='flex flex-1 flex-col'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg font-bold'>
-          We Provide You
+          
           <span className='text-sky-500'> Super </span>
-          <span className='text-sky-500'>Quality </span> Shoes
+          <span className='text-sky-500'>Quality </span> Suppliments
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>
-          Ensuring premium comfort and style, our meticulously crafted footwear
-          is designed to elevate your experience, providing you with unmatched
-          quality, innovation, and a touch of elegance.
+        Trust is the cornerstone of our brand. With official ratings and unwavering commitment to our promises, 
+        our products deliver on their word, offering reliability and quality you can count on.
         </p>
         <p className='mt-6 lg:max-w-lg info-text'>
           Our dedication to detail and excellence ensures your satisfaction
@@ -28,7 +27,7 @@ const SuperQuality = () => {
 
       <div className='flex-1 flex justify-center items-center'>
         <img
-          src={product13}
+          src={trust}
           alt='product detail'
           width={570}
           height={522}

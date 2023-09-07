@@ -9,7 +9,8 @@ import Logo from './lifestyle-logo.png'
 import footerLogo from './footerLogo.png'
 import navLogo from './navLogo2.png'
 
-import offer from './offer.svg'
+import offer from './30_off-transformed.png'
+import trust from './trust2.jpg';
 
 import product4 from './myprotein.webp'
 import product5 from './dynamite-iso.webp'
@@ -21,6 +22,9 @@ import product10 from './muscleblaze-bio.webp'
 import product11 from './muscleblaze-gold.webp'
 import product12 from './on-isolate.webp'
 import product13 from './syntha.webp'
+import product14 from './bigm-real1.webp'
+import product15 from './protein-bars.webp'
+import product16 from './bcaa.webp'
 
 import thumbnailBackground from './thumbnail-background.svg'
 import thumbnailProduct1 from './on-whey-removebg-preview.png'
@@ -40,6 +44,8 @@ export {
     navLogo,
 
     offer,
+    trust,
+    
     product4,
     product5,
     product6,
@@ -50,6 +56,9 @@ export {
     product11,
     product12,
     product13,
+    product14,
+    product15,
+    product16,
 
     thumbnailBackground,
     thumbnailProduct1,

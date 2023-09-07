@@ -1,5 +1,5 @@
 import { arrowRight } from "../assets/icons";
-import { product12 } from "../assets/protein";
+import { offer } from "../assets/protein";
 import { Button } from "../components";
 
 const SpecialOffer = () => {
@@ -7,7 +7,7 @@ const SpecialOffer = () => {
     <section className='flex justify-between items-center max-xl:flex-col-reverse gap-10 max-container'>
       <div className='flex-1'>
         <img
-          src={product12}
+          src={offer}
           alt='Shoe Promotion'
           width={773}
           height={687}

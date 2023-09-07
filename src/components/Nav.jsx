@@ -6,14 +6,14 @@ import { navLinks } from "../constants"
 const Nav = () => {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
-        <nav className="flex justify-between items-center max-container">
+        <nav className="flex justify-between items-center max-container mx-5">
             <a href="/">
                 <img src={navLogo} alt="/" width={139} height={49} className="m-0 w-[139px] h-[49px]"/>
             </a>
             <ul className="flex-1 flex justify-center item-center gap-16 max-lg:hidden">
               {navLinks.map((item) => (
                 <li key={item.label}>
-                  <a href={item.href} className="font-montserrat leading-normal text-lg text-slate-gray">{item.label}</a>
+                  <a href={item.href} className="font-montserrat leading-normal text-lg text-slate-gray hover:text-sky-500">{item.label}</a>
                 </li>
               ))}
             </ul>

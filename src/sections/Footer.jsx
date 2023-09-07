@@ -26,7 +26,7 @@ const Footer = () => {
                 className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
                 key={icon.alt}
               >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                <a href={icon.href}><img src={icon.src} alt={icon.alt} width={24} height={24} /></a>
               </div>
             ))}
           </div>
