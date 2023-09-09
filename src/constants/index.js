@@ -1,4 +1,4 @@
-import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
+import { facebook, instagram, shieldTick, support, truckFast, whatsapp } from "../assets/icons";
 import { 
     bestProduct1, 
     bestProduct2, 
@@ -168,7 +168,7 @@ export const reviews = [
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Muskan ',
         rating: 5,
         feedback: "The product not only met but exceeded my expectations and they offer huge of discounts on wide range of products!. I'll definitely be a returning customer!"
     }
@@ -207,7 +207,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo", href:'https://www.instagram.com/lifestylenutritionngp/' },
-    { src: twitter, alt: "twitter logo", href:'https://www.instagram.com/lifestylenutritionngp/' },
-    { src: instagram, alt: "instagram logo",  },
+    { src: facebook, alt: "facebook logo", href:'https://www.https://www.facebook.com/lsnnagpur?mibextid=LQQJ4d.com/lifestylenutritionngp/' },
+    { src: instagram, alt: "instagram logo", href:'https://www.instagram.com/lifestylenutritionngp/' },
+    { src: whatsapp, alt: "whatsapp logo", href:'https://wa.me/+919890718000?text=I%27m%20interested%20in%20buying%20protein%20from%20lifestyle%20Nutrition.%20Can%20you%20guys%20call%20me.' }    
 ];

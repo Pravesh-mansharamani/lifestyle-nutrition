@@ -3,7 +3,7 @@ import bestProduct2 from './muscletech.jpg'
 import bestProduct3 from './dymatize-elite.jpeg' 
 
 import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
+import customer2 from './customer2.jpg'
 
 import Logo from './lifestyle-logo.png'
 import footerLogo from './footerLogo.png'
