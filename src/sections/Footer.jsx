@@ -62,7 +62,7 @@ const Footer = () => {
             className='rounded-full m-0'
           />
           <p>Copyright. All rights reserved.</p>
-          <p>Made by Pravesh Mansharamani</p>
+          <a href="https://www.linkedin.com/in/pravesh-mansharamani-924984198/"><p className="hover:text-sky-500">Made by Pravesh Mansharamani</p></a>
         </div>
         <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
       </div>
