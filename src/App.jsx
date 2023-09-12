@@ -10,6 +10,7 @@ import {
 } from "./sections";
 
 import Nav from "./components/Nav"
+import { Analytics } from '@vercel/analytics/react';
 
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
       <section className=' bg-black padding-x padding-t pb-8'>
         <Footer />
       </section>
+      <Analytics />
     </main>
   );
 };
