@@ -16,6 +16,7 @@ import { Analytics } from '@vercel/analytics/react';
 const App = () => {
   return (
     <main className='relative'>
+      <Analytics />
       <Nav />
       <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
@@ -41,7 +42,7 @@ const App = () => {
       <section className=' bg-black padding-x padding-t pb-8'>
         <Footer />
       </section>
-      <Analytics />
+      
     </main>
   );
 };
